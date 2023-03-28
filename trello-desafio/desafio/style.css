@@ -37,7 +37,13 @@ header{
     border: 0;
     font-family: Font01,Arial, Helvetica, sans-serif;
     background: rgb(255,255,255);
-    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(9,118,121,1) 0%, rgba(0,212,255,1) 18%);
+    background-image: radial-gradient(circle at -19.98% 50%, #6178ff 0, #2655c5 50%, #00348b 100%);
+    
+}
+
+
+main{
+    background-image: url();
 }
 
 
@@ -55,8 +61,75 @@ img#pontin{
     max-width: 150px;
 }
 
+div{
+    left: 260px;
+    top: 0;
+    display: flex;
+    position: absolute;
+}
+
+#area{
+    color: white;
+    right: 15px;
+    margin-top: 7px;
+    height: 27px;
+    width: 160px;
+    padding-top: 5px;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #A0ABFF;
+}
+
+#recente{
+    color: white;
+    margin-top: 7px;
+    margin-left: 25px;
+    width: 90px;
+    padding-top: 5px;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #A0ABFF;
+}
+
+#marcados{
+    color: white;
+    margin-top: 7px;
+    margin-left: 25px;
+    width: 90px;
+    padding-top: 5px;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #A0ABFF;
+}
+
+#modelos{
+    color: white;
+    margin-top: 7px;
+    margin-left: 25px;
+    background-color: #A0ABFF;
+    width: 90px;
+    padding-top: 5px;
+    height: 24px;
+    border-radius: 5px;
+    text-align: center;
+}
+input{
+    color: white;
+    background-color: #C4C4C4;
+    border-radius: 2px;
+}
+
+#pesquisa{
+    width: 300px;
+    top: 15px;
+    left: 1350px;
+}
 
 a{
+    font-family:  Helvetica, sans-serif;
+    font-size: 18px;
+    margin-bottom: 15px;
+    margin-left: 15px;
     margin-top: 0px;
     color: black;
     text-decoration: none;
