@@ -22,7 +22,13 @@ button{
 }
 
 
-body{
+body,html{
+    width: 100vw;
+    height: 100vh;
+    z-index: auto;
+    background-position: center center;
+    background-size: 1800px;
+    background: url(img/pexels-pixabay-147411.jpg);
     background-color: aliceblue;
     border: 0;
     padding: 0;
@@ -41,10 +47,6 @@ header{
     
 }
 
-
-main{
-    background-image: url();
-}
 
 
 img#gif{
@@ -109,7 +111,6 @@ div{
     background-color: #A0ABFF;
     width: 90px;
     padding-top: 5px;
-    height: 24px;
     border-radius: 5px;
     text-align: center;
 }
