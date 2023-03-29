@@ -25,10 +25,9 @@ button{
 body,html{
     width: 100vw;
     height: 100vh;
-    z-index: auto;
     background-position: center center;
-    background-size: 1800px;
-    background: url(img/pexels-pixabay-147411.jpg);
+    background-size: cover;
+    background: url(img/pexels-evgeny-tchebotarev-4101555.jpg);
     background-color: aliceblue;
     border: 0;
     padding: 0;
@@ -46,7 +45,6 @@ header{
     background-image: radial-gradient(circle at -19.98% 50%, #6178ff 0, #2655c5 50%, #00348b 100%);
     
 }
-
 
 
 img#gif{
