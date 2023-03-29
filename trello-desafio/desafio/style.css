@@ -1,4 +1,9 @@
 
+::-webkit-scrollbar{
+    height: 0%;
+    width: 0%;
+}
+
 @font-face {
     font-family: trello;
     src: url();
@@ -7,8 +12,7 @@
 *{
   max-width: 100%; 
   max-height: 100%;
-  padding: auto;
-  margin: auto;
+  margin-top: 0;
   border: 0;
 }
 
@@ -22,16 +26,19 @@ button{
 }
 
 
-body,html{
-    width: 100vw;
-    height: 100vh;
+body{  
+    height: 100%;
+    width: 100%;
     background-position: center center;
     background-size: cover;
-    background: url(img/pexels-evgeny-tchebotarev-4101555.jpg);
-    background-color: aliceblue;
-    border: 0;
-    padding: 0;
-    margin: 0;
+    background-repeat: no-repeat;
+    background: url('img/montanhas02.jpg');
+
+}
+
+main{
+    width: 100vw;
+    height: 100vh;
 }
 
 header{
@@ -42,7 +49,7 @@ header{
     border: 0;
     font-family: Font01,Arial, Helvetica, sans-serif;
     background: rgb(255,255,255);
-    background-image: radial-gradient(circle at -19.98% 50%, #6178ff 0, #2655c5 50%, #00348b 100%);
+    background-image: radial-gradient(circle at 87.5% 12.5%, #553585 0, #302160 25%, #0d0a3a 50%, #000019 75%, #000000 100%);
     
 }
 
