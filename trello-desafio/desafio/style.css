@@ -134,6 +134,10 @@ div{
     
 }
 
+#barrad{
+    border: white ;
+}
+
 input{
     color: white;
     background-color: #C4C4C4;
