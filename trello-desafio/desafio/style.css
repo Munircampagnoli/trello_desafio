@@ -26,7 +26,8 @@ button{
 }
 
 
-body{  
+body,html{  
+    overflow: hidden;
     height: 100%;
     width: 100%w;
     background-position: center center;
@@ -49,8 +50,7 @@ header{
     border: 0;
     font-family: Font01,Arial, Helvetica, sans-serif;
     background: rgb(255,255,255);
-    background-image: radial-gradient(circle at 87.5% 12.5%, #553585 0, #302160 25%, #0d0a3a 50%, #000019 75%, #000000 100%);
-    
+    background-image: linear-gradient(to right, #030985, #001b79, #002168, #002355, #022340);
 }
 
 
