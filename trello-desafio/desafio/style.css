@@ -27,7 +27,7 @@ button{
 body,html{  
     overflow: hidden;
     height: 100%;
-    width: 100%w;
+    width: 100%;
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -220,6 +220,9 @@ input{
     height: 20px;
     width: 30px;
 }
+
+
+#  
 
 
 
