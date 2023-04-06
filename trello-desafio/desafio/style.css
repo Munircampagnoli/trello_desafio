@@ -27,11 +27,11 @@ button{
 body,html{  
     overflow: hidden;
     height: 100%;
-    width: 100%w;
+    width: 100%;
     background-position: center center;
-    background-size: cover;
+    background-size: auto;
     background-repeat: no-repeat;
-    background: url('img/montanhas02.jpg');
+    background: url('img/i394054.jpeg');
 
 }
 
