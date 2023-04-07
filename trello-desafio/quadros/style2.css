@@ -40,13 +40,29 @@ footer{
 img#gif{
     margin-top: 12px;
     margin-bottom: 6px;
-    margin-left: 7px;
+    margin-left: -5px;
     max-height: 85px;
-    max-width: 85px;
-    
+    max-width: 85px; 
 }
 
+/* hover-gif */
+#gif:hover{
+}
+/* hover-gif */
+
+/* hover-pontin*/
+#pontin:hover{
+}
+/* hover-pontin*/
 img#pontin{
+    margin-bottom: 7px;
+    margin-top: 9px;
+    margin-left: -5px;
+    max-height: 50px;
+    max-width: 50px;
+}
+
+#pontin-hover{
     margin-bottom: 7px;
     margin-top: 9px;
     margin-left: 10px;
