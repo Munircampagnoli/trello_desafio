@@ -152,6 +152,38 @@ div{
     
 }
 
+#pesquisar-div{
+    top: 2px;
+    left: 850px;
+}
+
+#pesquisar{
+    color: white;
+    text-align: justify;
+    border-radius: 5px ;
+    border-color: white;
+    border-width: 1px;
+    border-style: solid;
+    margin-top: 7px;
+    width: 200px;
+    height: 30px;
+    background-color: #6694e844;
+}
+
+#sino{
+    top: 15px;
+    left: 1090px;
+}
+
+#esclamacao{
+    color: white;
+    height: 20px;
+    width: 20px;
+    top: 13px;
+    left: 1120px;
+}
+
+
 
 
 input{
