@@ -1,9 +1,12 @@
 
+/* geral*/
 
 @font-face {
     font-family: trello;
     src: url();
 }
+
+/* geral*/
 
 *{
     margin-right: 0px;
@@ -13,7 +16,9 @@
     margin-top: 0;
     border: 0;
 }
+/* geral*/
 
+/* botão */
 
 button{
     padding: 0;
@@ -21,10 +26,9 @@ button{
     margin-top: 15px;
     background-color: green;
    color: white;
-
-
 }
 
+/* botão */
 
 body,html{  
     overflow: hidden;
@@ -56,6 +60,7 @@ header{
     background-color: #131b2b;
 }
 
+/* cabeçalho */
 
 img#gif{
     margin-top: 12px;
@@ -156,7 +161,7 @@ div{
 
 #pesquisar-div{
     top: 2px;
-    left: 850px;
+    left: 1300px;
 }
 
 #pesquisar{
@@ -185,17 +190,11 @@ div{
     left: 1120px;
 }
 
+/* cabeçalho */
 
 #criar-quadro{
     top: 15px;
 }
-
-#quadro{
-
-}
-
-
-
 
 input{
     color: white;
@@ -208,10 +207,24 @@ input{
     top: 15px;
     left: 1350px;
 }
+
+/* barra lateral*/
+
+#fundacao{
+    margin-bottom: 0;
+    margin-left: -25px;
+    margin-top: 90px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 20px;
+    font-size: 14px;
+    font-weight: 500;
+    color: white;
+}
+
 #F{
     padding-top: 2px;
     border-radius: 3px;
-    margin-left: -170px;
+    margin-left: -80px;
     margin-top: 80px;
     color: white;
     background: linear-gradient(var(--ds-background-accent-blue-bolder, #0747a6), var(--ds-background-accent-teal-bolder, #008da6));
@@ -225,20 +238,8 @@ input{
     font-weight: bold;
 }
 
-
-#fundacao{
-    margin-bottom: 0;
-    margin-left: -80px;
-    margin-top: 70px;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    line-height: 20px;
-    font-size: 14px;
-    font-weight: 500;
-    color: white;
-}
-
 #bordinha{
-    left: -100px;
+    left: -0px;
     margin-top: 160px;
     background-color: rgba(255, 255, 255, 0.562);
     height: 1px;
@@ -249,7 +250,7 @@ input{
     font-family:  -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: 600;
     font-size: 14px;
-    left: 18px;
+    left: 100px;
     top: 164px;
     color: white;
 }
@@ -257,7 +258,7 @@ input{
 
 #img1{
     border-radius: 2px;
-    left: -85px;
+    left: 15px;
     top: 190px ;
     background-color: green;
     height: 20px;
@@ -265,11 +266,14 @@ input{
 }
 
 #prog{
-    left: -50px;
+    left: 52px;
     top: 192px;
     font-size: 14px;
     color: white;
 }
+
+/* cabeçalho */
+/* main-text*/
 
 #main-prog{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -280,7 +284,10 @@ input{
     color: white;
 }
 
+/* main-text*/
 
+/* js css*/
+/* resto */
 #star{
     max-height: 16px;
     max-width: 16px;
@@ -371,3 +378,4 @@ li{
     margin-bottom: 10px;
   }
   
+  /* resto */
