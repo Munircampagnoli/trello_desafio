@@ -20,7 +20,9 @@ button{
     border: 0;
     margin-top: 15px;
     background-color: green;
-    color: white;
+   color: white;
+
+
 }
 
 
@@ -32,8 +34,8 @@ body,html{
     background-size: auto;
     background-repeat: no-repeat;
     background: url('img/montanhas02.jpg');
-
 }
+
 
 main{
     width: 100vw;
