@@ -450,8 +450,41 @@ input{
 
 .btnFechar{
     display: block;
-    width: 50px;
+    width: 70px;
     height: 50px;
+    margin-top: 3px;
+    margin-left: 15px;
     color: white;
+    border-radius: 8px;
     background-color: #FF4858;
+}
+
+/* Cartoe add */
+
+#addquadro1{
+    height: 40px;
+    width: 200px;
+    left: 300px;
+    top: 150px;
+    color: white;
+    background-color: #131b2b;
+}
+
+#addquadro2{
+    height: 40px;
+    width: 200px;
+    left: 600px;
+    top: 150px;
+    color: white;
+    padding: 10px;
+    background-color: #131b2b;
+}
+
+#addquadro3{
+    height: 40px;
+    width: 200px;
+    left: 900px;
+    top: 150px;
+    color: white;
+    background-color: #131b2b;
 }
