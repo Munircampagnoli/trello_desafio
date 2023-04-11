@@ -10,28 +10,15 @@ function gerarCorAleatoria() {
 function criarQuadro() {
   const texto = prompt("Digite o título do quadro:");
   if (texto) {
-
-
     const cor = gerarCorAleatoria();
     const quadro = document.createElement("div");
     quadro.classList.add("quadro");
     quadro.style.width = "350px";
     quadro.style.height = "200px";
-    quadro.style.marginLeft = "5px";
     quadro.style.backgroundColor = cor;
-
-    const botaoFechar = document.createElement("button");
-    botaoFechar.textContent = "fechar";
-    botaoFechar.style.position = "fixed";
-    botaoFechar.style.height = "30px";
-    botaoFechar.style.width = "60px";
-    botaoFechar.style.marginLeft = "70px";
-    botaoFechar.addEventListener("click", () => {
-      modal.remove();
-      overlay.remove();
-    });
     
-
+    
+ 
     const botaoExcluir = document.createElement("button");
     botaoExcluir.textContent = "Excluir quadro";
     botaoExcluir.addEventListener("click", () => {
@@ -48,13 +35,7 @@ function criarQuadro() {
 
     quadro.appendChild(titulo);
 
-    const container = document.querySelector("#criar-quadro");
-    container.style.flexWrap = "wrap";
-
-  
-
-    modal.appendChild(botaoFechar);
-
+    const container = document.querySelector("#criarconteiner");
     container.appendChild(quadro);
 
     quadros.push({ titulo: texto, cor: cor });
@@ -66,17 +47,15 @@ function criarQuadro() {
 
 function renderizarQuadros() {
   const container = document.querySelector("#container");
-  container.style.flexWrap = "wrap";
 
   quadros.forEach((quadroInfo) => {
     const quadro = document.createElement("div");
     quadro.classList.add("quadro");
     quadro.style.width = "210px";
     quadro.style.height = "130px";
-    quadro.style.marginLeft = "5px";
     quadro.style.backgroundColor = quadroInfo.cor;
-    
-    const botaoExcluir = document.createElement("button");
+
+    const botaoExcluir = document.createElement("#criar");
     botaoExcluir.textContent = "Excluir quadro";
     botaoExcluir.addEventListener("click", () => {
       quadro.remove();
@@ -117,14 +96,14 @@ function carregarQuadros() {
   }
 }
 
-const botaoCriarQuadro = document.querySelector("#criar");
+const botaoCriarQuadro = document.querySelector("#criarquadro");
 botaoCriarQuadro.addEventListener("click", criarQuadro);
 
 window.addEventListener("load", carregarQuadros);
 
 function excluirTodosQuadros() {
   if (confirm("Tem certeza que deseja excluir todos os quadros?")) {
-    const quadros = document.querySelectorAll(".quadro");
+    const quadros = document.querySelectorAll("#excluirtodososquadros");
     for (let i = 0; i < quadros.length; i++) {
       quadros[i].remove();
     }
@@ -132,4 +111,13 @@ function excluirTodosQuadros() {
     quadros.length = 0; 
     localStorage.clear();
   }
+}
+
+function acessarArea(){
+    alert('página indisponivel')
+
+}
+function acessarrecente(){
+    alert('pagina indisponivel')
+
 }
