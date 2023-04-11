@@ -89,12 +89,13 @@ div{
 #area{
     font-size: 14px;
     color: white;
-    right: 15px;
+    margin-left: 30px;
     margin-top: 7px;
     height: 27px;
     width: 160px;
     padding-top: 5px;
     border-radius: 5px;
+    text-decoration: none;
     text-align: center;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
@@ -106,6 +107,7 @@ div{
     width: 90px;
     padding-top: 5px;
     border-radius: 5px;
+    text-decoration: none;
     text-align: center;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
@@ -113,11 +115,12 @@ div{
 #marcados{
     color: white;
     margin-top: 7px;
-    margin-left: 10px;
+    margin-left: 15px;
     width: 150px;
     height: 100px;
     padding-top: 5px;
     border-radius: 5px;
+    text-decoration: none;
     text-align: center;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
@@ -125,10 +128,11 @@ div{
 #modelos{
     color: white;
     margin-top: 7px;
-    margin-left: 10px;
+    margin-left: 15px;
     width: 90px;
     padding-top: 5px;
     border-radius: 5px;
+    text-decoration: none;
     text-align: center;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
@@ -138,7 +142,9 @@ div{
     height: 20px;
     bottom: 0px;
     padding-top: 7px;
+    margin-left: 15px;
     margin-top: 7px;
+    text-decoration: none;
     color: white;
 }
 
@@ -180,6 +186,11 @@ div{
 #sino{
     top: 15px;
     left: 1090px;
+}
+
+#user{
+    margin-left: 389px;
+    margin-top: 6px;
 }
 
 #esclamacao{
@@ -288,94 +299,3 @@ input{
 
 /* js css*/
 /* resto */
-#star{
-    max-height: 16px;
-    max-width: 16px;
-    left: 620px;
-    top: 53px ;
-}
-
-
-a{
-    font-size: 14px;
-    margin-bottom: 15px;
-    margin-left: 15px;
-    margin-top: 0px;
-    color: black;
-    text-decoration: none;
-}
-
-li{
-    display: flex;
-}
-
-
-
-#board-container {
-    display: flex;
-    flex-wrap: wrap;
-  }
-  
-  .board {
-    margin: 10px;
-    padding: 10px;
-    width: 300px;
-    background-color: #eee;
-    border-radius: 5px;
-  }
-  
-  .board-title {
-    font-weight: bold;
-  }
-  
-  .card {
-    margin: 10px 0;
-    padding: 5px;
-    background-color: #fff;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  
-  .card:hover {
-    background-color: #f5f5f5;
-  }
-  
-  .card-edit-btn {
-    float: right;
-    margin-left: 10px;
-  }
-  
-  .card-delete-btn {
-    float: right;
-  }
-  
-  #modal {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-    display: none;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  #modal-content {
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 5px;
-    width: 400px;
-  }
-  
-  #modal-title {
-    margin-top: 0;
-  }
-  
-  #modal-textarea {
-    width: 100%;
-    height: 100px;
-    margin-bottom: 10px;
-  }
-  
-  /* resto */
