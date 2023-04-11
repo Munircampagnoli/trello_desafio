@@ -420,12 +420,12 @@ input{
 
 /* area de texto*/
 .textarea{
-    display: flex;
+    display: none;
     overflow: hidden;
     margin-left: 0px;
-    margin-top: 0px;
+    margin-top: 50px;
     border-radius: 25px;
-    height: 800px;
+    height: 500px;
     width: 700px;
     padding-top: 5px;
     padding-left: 15px;
@@ -443,6 +443,15 @@ input{
     border: 2px solid #131b2b;
     border-radius: 25px;
     background-color: rgb(255, 255, 255);
-    height: 801px;
+    height: 600px;
     width: 701px;
+}
+
+
+.btnFechar{
+    display: block;
+    width: 50px;
+    height: 50px;
+    color: white;
+    background-color: #FF4858;
 }

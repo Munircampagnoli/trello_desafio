@@ -12,17 +12,27 @@ function criarQuadro() {
   if (texto) {
     const cor = gerarCorAleatoria();
     const quadro = document.createElement("div");
+    
     quadro.classList.add("quadro");
     quadro.style.width = "350px";
     quadro.style.height = "200px";
     quadro.style.backgroundColor = cor;
 
     quadro.addEventListener ("click",() =>{
-        const quadro=document.createElement("div")
-        quadro.classList.add("clickquadro")
+        const quadro1=document.createElement("div")
+        quadro1.classList.add("clickquadro")
 
-        document.body.appendChild(quadro)
-        quadro.appendChild(textarea)
+        document.body.appendChild(quadro1)
+        quadro1.appendChild(textarea)
+
+        const btnFechar=document.createElement("button")
+    btnFechar.classList.add("btnFechar")
+    btnFechar.textContent = "Fechar";
+    btnFechar.addEventListener("click", ()=>{
+        quadro1.remove()
+    })
+
+        quadro1.appendChild(btnFechar)
     })
 
 
@@ -47,12 +57,15 @@ function criarQuadro() {
     quadro.appendChild(btnSalvar)
 
 
+    
+
+
+
+
 
     const textarea= document.createElement("textarea")
     textarea.classList.add("textarea")
 
-
-    
 
     quadro.appendChild(botaoExcluir);
 
