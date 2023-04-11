@@ -15,8 +15,8 @@ function criarQuadro() {
     const cor = gerarCorAleatoria();
     const quadro = document.createElement("div");
     quadro.classList.add("quadro");
-    quadro.style.width = "210px";
-    quadro.style.height = "130px";
+    quadro.style.width = "350px";
+    quadro.style.height = "200px";
     quadro.style.marginLeft = "5px";
     quadro.style.backgroundColor = cor;
 
@@ -65,7 +65,7 @@ function criarQuadro() {
 }
 
 function renderizarQuadros() {
-  const container = document.querySelector("#criar-quadro");
+  const container = document.querySelector("#container");
   container.style.flexWrap = "wrap";
 
   quadros.forEach((quadroInfo) => {
@@ -117,7 +117,7 @@ function carregarQuadros() {
   }
 }
 
-const botaoCriarQuadro = document.querySelector("#criar-novo-quadro");
+const botaoCriarQuadro = document.querySelector("#criar");
 botaoCriarQuadro.addEventListener("click", criarQuadro);
 
 window.addEventListener("load", carregarQuadros);
