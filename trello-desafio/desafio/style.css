@@ -299,10 +299,28 @@ input{
 
 /* main divs e links */
 /* main-corpo*/
-#btn-1{
+
+
+/* FORM */
+#card p-3 m-3{
     margin-top: 50px;
-    
 }
+/* FORM */
+
+#form-group d-flex flex-column{
+    margin-top: 50px;
+}
+
+/* DIVS */
+#form-group d-flex flex-column{
+    margin-top: 50px;
+}
+
+#btn-salvar{
+    margin-top: 50px;
+}
+
+
 /* main-corpo*/
 /* main divs e links */
 
