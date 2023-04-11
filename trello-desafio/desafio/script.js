@@ -57,12 +57,6 @@ function criarQuadro() {
     quadro.appendChild(btnSalvar)
 
 
-    
-
-
-
-
-
     const textarea= document.createElement("textarea")
     textarea.classList.add("textarea")
 

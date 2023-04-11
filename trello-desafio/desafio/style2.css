@@ -202,25 +202,22 @@ div{
     margin-top: -3px;
     width: 200px;
     height: 30px;
+    margin-left: 170px;
     background-color: #6694e844;
 }
 
-#exclamacao{
-    top: 13px;
-    left: 1090px;
-}
 
 #interogacao{
     color: white;
-    height: 20px;
-    width: 20px;
-    top: 15px;
-    left: 1065px;
+    height: 24px;
+    width: 24px;
+    top: 13px;
+    left: 1230px;
 }
 
 #M{
     top: 13px;
-    left: 1120px;
+    left: 1260px;
 }
 
 #barra-1{

@@ -1,3 +1,3 @@
 # trello_desafio
 trello 
-oi fi bão
+Projeto em desenvolvimento de clone do site TRELLO 
