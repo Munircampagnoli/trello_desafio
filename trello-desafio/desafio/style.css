@@ -465,26 +465,34 @@ input{
     height: 40px;
     width: 200px;
     left: 300px;
-    top: 150px;
+    top: 100px;
     color: white;
+    padding-top: 8px;
+    padding-left: 35px;
+    border-radius: 8px;
     background-color: #131b2b;
 }
 
 #addquadro2{
     height: 40px;
     width: 200px;
-    left: 600px;
-    top: 150px;
+    left: 550px;
+    top: 100px;
     color: white;
-    padding: 10px ;
+    padding-top: 8px;
+    padding-left: 35px;
+    border-radius: 8px;
     background-color: #131b2b;
 }
 
 #addquadro3{
     height: 40px;
     width: 200px;
-    left: 900px;
-    top: 150px;
+    left: 800px;
+    top: 100px;
     color: white;
+    padding-top: 8px;
+    padding-left: 35px;
+    border-radius: 8px;
     background-color: #131b2b;
 }
