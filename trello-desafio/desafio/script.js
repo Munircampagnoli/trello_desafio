@@ -16,11 +16,21 @@ function criarQuadro() {
     quadro.style.width = "350px";
     quadro.style.height = "200px";
     quadro.style.backgroundColor = cor;
+
+    quadro.addEventListener ("click",() =>{
+        const quadro=document.createElement("div")
+        quadro.classList.add("clickquadro")
+
+        document.body.appendChild(quadro)
+        quadro.appendChild(textarea)
+    })
+
+
     
     
  
     const botaoExcluir = document.createElement("button");
-    botaoExcluir.textContent = "Excluir quadro";
+    botaoExcluir.textContent = "Excluir";
     botaoExcluir.addEventListener("click", () => {
       quadro.remove();
       numQuadros--;
@@ -28,14 +38,26 @@ function criarQuadro() {
       salvarQuadros();
     });
 
+    const btnSalvar=document.createElement("button")
+    btnSalvar.classList.add("btnSalvar")
+    btnSalvar.textContent = "Salvar";
+    btnSalvar.addEventListener("click",()=>{
+
+    })
+    quadro.appendChild(btnSalvar)
+
+
+
+    const textarea= document.createElement("textarea")
+    textarea.classList.add("textarea")
+
+
+    
+
     quadro.appendChild(botaoExcluir);
 
-    const titulo = document.createElement("h2");
-    titulo.textContent = texto;
 
-    quadro.appendChild(titulo);
-
-    const container = document.querySelector("#criarconteiner");
+    const container = document.querySelector("#container");
     container.appendChild(quadro);
 
     quadros.push({ titulo: texto, cor: cor });
@@ -51,21 +73,31 @@ function renderizarQuadros() {
   quadros.forEach((quadroInfo) => {
     const quadro = document.createElement("div");
     quadro.classList.add("quadro");
-    quadro.style.width = "210px";
-    quadro.style.height = "130px";
+    quadro.style.width = "350px";
+    quadro.style.height = "200px";
     quadro.style.backgroundColor = quadroInfo.cor;
 
-    const botaoExcluir = document.createElement("#criar");
-    botaoExcluir.textContent = "Excluir quadro";
+    const btnSalvar=document.createElement("button")
+    btnSalvar.classList.add("btnSalvar")
+    btnSalvar.textContent = "Salvar";
+    btnSalvar.addEventListener("click",()=>{
+
+    })
+    quadro.appendChild(btnSalvar)
+
+    const textarea= document.createElement("textarea")
+    textarea.classList.add("textarea")
+
+    quadro.appendChild(textarea)
+
+    const botaoExcluir = document.createElement("button");
+    botaoExcluir.textContent = "Excluir";
     botaoExcluir.addEventListener("click", () => {
       quadro.remove();
       numQuadros--;
       quadros = quadros.filter((q) => q !== quadroInfo);
       salvarQuadros();
     });
-
-    const titulo = document.createElement("h2");
-    titulo.textContent = quadroInfo.titulo;
 
     quadro.appendChild(botaoExcluir);
     quadro.appendChild(titulo);
@@ -96,7 +128,7 @@ function carregarQuadros() {
   }
 }
 
-const botaoCriarQuadro = document.querySelector("#criarquadro");
+const botaoCriarQuadro = document.querySelector("#criar");
 botaoCriarQuadro.addEventListener("click", criarQuadro);
 
 window.addEventListener("load", carregarQuadros);
