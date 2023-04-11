@@ -363,6 +363,11 @@ input{
     border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 
+#container{
+    width: 350px;
+    height:200px ;
+}
+
 
 
 /* main-corpo*/
