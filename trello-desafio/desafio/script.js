@@ -18,7 +18,7 @@ function criarQuadro() {
     
     quadro.classList.add("quadro");
     quadro.style.width = "350px";
-    quadro.style.height = "200px";
+    quadro.style.height = "100px";
     quadro.style.backgroundColor = cor;
     
 
@@ -86,7 +86,7 @@ function renderizarQuadros() {
     const quadro = document.createElement("div");
     quadro.classList.add("quadro");
     quadro.style.width = "350px";
-    quadro.style.height = "200px";
+    quadro.style.height = "100px";
     quadro.style.backgroundColor = quadroInfo.cor;
 
     const btnSalvar=document.createElement("button")
