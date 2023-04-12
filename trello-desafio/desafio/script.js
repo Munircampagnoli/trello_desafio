@@ -9,21 +9,25 @@ function gerarCorAleatoria() {
 }
 
 
-function criarQuadro(containerId) {
+function criarQuadro() {
   const texto = prompt("Digite o título do quadro:");
   if (texto) {
     const cor = gerarCorAleatoria();
     const quadro = document.createElement("div");
-    const container1 = document.querySelector("#" + containerId);
+  
     
     quadro.classList.add("quadro");
     quadro.style.width = "350px";
     quadro.style.height = "200px";
     quadro.style.backgroundColor = cor;
+    
 
     quadro.addEventListener ("click",() =>{
         const quadro1=document.createElement("div")
         quadro1.classList.add("clickquadro")
+
+        const textarea= document.createElement("textarea")
+    textarea.classList.add("textarea")
 
         document.body.appendChild(quadro1)
         quadro1.appendChild(textarea)
@@ -60,12 +64,8 @@ function criarQuadro(containerId) {
     quadro.appendChild(btnSalvar)
 
 
-    const textarea= document.createElement("textarea")
-    textarea.classList.add("textarea")
-
 
     quadro.appendChild(botaoExcluir);
-    container1.appendChild(quadros);
 
 
     const container = document.querySelector("#container");
@@ -78,20 +78,6 @@ function criarQuadro(containerId) {
   }
 }
 
-const botaoCriarTarefaDiaria = document.querySelector("#addquadro1");
-botaoCriarTarefaDiaria.addEventListener("click", () => {
-  criarTarefa("container");
-});
-
-const botaoCriarTarefaOngoing = document.querySelector("#addquadro2");
-botaoCriarTarefaOngoing.addEventListener("click", () => {
-  criarTarefa("container2");
-});
-
-const botaoCriarTarefaConcluida = document.querySelector("#addquadro3");
-botaoCriarTarefaConcluida.addEventListener("click", () => {
-  criarTarefa("container3");
-});
 
 function renderizarQuadros() {
   const container = document.querySelector("#container");

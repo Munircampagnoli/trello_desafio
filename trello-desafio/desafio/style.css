@@ -437,12 +437,12 @@ input{
 
 /* area de texto*/
 .textarea{
-    display: none;
     overflow: hidden;
     margin-left: 0px;
-    margin-top: 50px;
+    margin-top: 0px;
+    margin-bottom: 15px;
     border-radius: 25px;
-    height: 500px;
+    height: 600px;
     width: 700px;
     padding-top: 5px;
     padding-left: 15px;
