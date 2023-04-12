@@ -7,11 +7,14 @@ function gerarCorAleatoria() {
   const b = Math.floor(Math.random() * 256);
   return `rgb(${r}, ${g}, ${b})`;
 }
-function criarQuadro() {
+
+
+function criarQuadro(containerId) {
   const texto = prompt("Digite o título do quadro:");
   if (texto) {
     const cor = gerarCorAleatoria();
     const quadro = document.createElement("div");
+    const container1 = document.querySelector("#" + containerId);
     
     quadro.classList.add("quadro");
     quadro.style.width = "350px";
@@ -62,6 +65,7 @@ function criarQuadro() {
 
 
     quadro.appendChild(botaoExcluir);
+    container1.appendChild(quadros);
 
 
     const container = document.querySelector("#container");
@@ -73,6 +77,21 @@ function criarQuadro() {
     salvarQuadros();
   }
 }
+
+const botaoCriarTarefaDiaria = document.querySelector("#addquadro1");
+botaoCriarTarefaDiaria.addEventListener("click", () => {
+  criarTarefa("container");
+});
+
+const botaoCriarTarefaOngoing = document.querySelector("#addquadro2");
+botaoCriarTarefaOngoing.addEventListener("click", () => {
+  criarTarefa("container2");
+});
+
+const botaoCriarTarefaConcluida = document.querySelector("#addquadro3");
+botaoCriarTarefaConcluida.addEventListener("click", () => {
+  criarTarefa("container3");
+});
 
 function renderizarQuadros() {
   const container = document.querySelector("#container");
