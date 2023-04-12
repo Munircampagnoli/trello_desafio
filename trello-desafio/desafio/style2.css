@@ -236,6 +236,11 @@ div{
 #sinal-vida{
     margin-right: 5px;
 }
+#linha1{
+    margin-top: 100px;
+    color: black;
+    background-color: black;
+}
 
 #quadros{
     font-size: 16px;
