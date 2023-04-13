@@ -514,3 +514,9 @@ input{
     border-radius: 8px;
     background-color: #131b2b;
 }
+
+/* detalhes */
+
+#fundacaoedu{
+    text-decoration: none;
+}
