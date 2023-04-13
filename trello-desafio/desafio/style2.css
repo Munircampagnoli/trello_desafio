@@ -66,6 +66,7 @@ img#pontin{
     max-width: 50px;
 }
 
+
 /* links */
 
 a{
@@ -228,45 +229,102 @@ div{
 /* barra lado */
 
 #trelinho{
+    margin-top: 3px;
     margin-right: 5px;
 }
 #trelinho2{
+    margin-top: 3px;
     margin-right: 5px;
 }
-#sinal-vida{
+#vida{
+    width: 24px;
+    height: 24px;
+    margin-top: 3px;
     margin-right: 5px;
 }
 #linha1{
     margin-top: 200px;
-    margin-left: 300px;
+    margin-left: 370px;
     color: black;
     height: 2px;
-    width: 150px;
+    width: 232px;
 }
+
+#mais{
+    width: 16px;
+    height: 16px;
+    margin-top: 5px;
+    margin-left: 90px;
+}
+
 
 #quadros{
     font-size: 16px;
-    font-weight: bolder;
+    font-weight: bold;
     font-family:  -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 20px;
     top: 87px;
-    left: 300px;
-    color: black;
+    left: 370px;
+    width: 232px;
+    height: 20px;
+    color: #5e6c84;
 }
 
 #modelos2{
     font-size: 16px;
-    font-weight: bolder;
+    font-weight: bold;
     font-family:  -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 20px;
     top: 135px;
-    left: 300px;
-    color: black;
+    left: 370px;
+    width: 232px;
+    height: 20px;
+    color: #5e6c84;
 }
 
 #inicio{
     font-size: 16px;
-    font-weight: bolder;
+    font-weight: bold;
     font-family:  -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 20px;
     top: 175px;
-    left: 300px;
-    color: black;
+    left: 370px;
+    width: 232px;
+    height: 20px;
+    color: #5e6c84;
 }
+
+#areat{
+    top: 250px;
+    font-size: 12px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    line-height: 16px;
+    margin-left: 270px;
+}
+
+#area1{
+    top: 300px;
+    margin-left: 295px;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 20px;
+}
+
+#A{
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 20px;
+    padding-left: 5px;
+    padding-top: 2px;
+    overflow: hidden;
+    border-radius: 2px;
+    width: 21px;
+    height: 21px;
+    top: 300px;
+    margin-left: 270px;
+    background: linear-gradient(var(--ds-background-accent-magenta-bolder, #b22865), var(--ds-background-accent-magenta-subtle, #cd5a91));
+}
+
+
