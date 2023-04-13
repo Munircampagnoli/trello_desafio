@@ -389,6 +389,7 @@ input{
     width: 350px;
     height: 200px;
     margin-left: -101px;
+    margin-bottom: 15px;
     border-radius: 8px;
     background-color: #ccc;
     position: relative;
