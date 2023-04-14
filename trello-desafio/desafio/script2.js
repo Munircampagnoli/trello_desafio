@@ -118,7 +118,7 @@ function carregarQuadros() {
 }
 
 const botaoCriarQuadro = document.querySelector("#criar-novo-quadro");
-botaoCriarQuadro.addEventListener("click", criarQuadro);
+botaoCriarQuadro?.addEventListener("click", criarQuadro);
 
 window.addEventListener("load", carregarQuadros);
 
@@ -132,4 +132,12 @@ function excluirTodosQuadros() {
     quadros.length = 0; 
     localStorage.clear();
   }
+}
+
+function abrirMenu(){
+  document.getElementById("sidebar").style.display = "block";
+}
+
+function fecharMenu(){
+  document.getElementById("sidebar").style.display = "none";
 }
