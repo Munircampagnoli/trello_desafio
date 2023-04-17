@@ -7,11 +7,12 @@ function gerarCorAleatoria() {
   const b = Math.floor(Math.random() * 256);
   return `rgb(${r}, ${g}, ${b})`;
 }
-function criarQuadro() {
+function criarQuadro(containerid) {
   const texto = prompt("Digite o título do quadro:");
   if (texto) {
 
-   
+    const prisao = document.querySelector("#" + containerid)
+    
     const cor = gerarCorAleatoria();
     const quadro = document.createElement("div");
     quadro.classList.add("quadro");
