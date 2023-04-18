@@ -37,7 +37,7 @@ body,html{
     background-position: center center;
     background-size: auto;
     background-repeat: no-repeat;
-    background: url('img2/paisagem002.jpg   ');
+    background: url('img2/paisagem003.jpg');
 }
 
 
@@ -57,7 +57,7 @@ header{
     border: 0;
     font-family: Font01,Arial, Helvetica, sans-serif;
     background: rgb(255,255,255);
-    background-color: #131b2b;
+    background-color: #77CFF2;
 }
 
 /* cabeçalho */
@@ -161,7 +161,7 @@ div{
     height: 100vh;
     left: 0px;
     top: 43px;
-    background-color: #131b2bd5;
+    background-color: #77cff25d;
     
 }
 
@@ -488,7 +488,7 @@ input{
     padding-top: 8px;
     padding-left: 110px;
     border-radius: 8px;
-    background-color: #131b2b;
+    background-color: #77CFF2;
 }
 
 #addquadro2{
@@ -500,7 +500,7 @@ input{
     padding-top: 8px;
     padding-left: 110px;
     border-radius: 8px;
-    background-color: #131b2b;
+    background-color: #77CFF2;
 }
 
 #addquadro3{
@@ -512,7 +512,7 @@ input{
     padding-top: 8px;
     padding-left: 110px;
     border-radius: 8px;
-    background-color: #131b2b;
+    background-color: #77CFF2;
 }
 
 /* detalhes */
