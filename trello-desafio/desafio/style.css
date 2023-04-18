@@ -6,6 +6,7 @@
     src: url();
 }
 
+
 /* geral*/
 
 *{
@@ -57,7 +58,7 @@ header{
     border: 0;
     font-family: Font01,Arial, Helvetica, sans-serif;
     background: rgb(255,255,255);
-    background-color: #77CFF2;
+    background-color: #4297b8;
 }
 
 /* cabeçalho */
@@ -161,7 +162,7 @@ div{
     height: 100vh;
     left: 0px;
     top: 43px;
-    background-color: #77cff25d;
+    background-color: #4297b883;
     
 }
 
@@ -180,7 +181,7 @@ div{
     margin-top: 7px;
     width: 200px;
     height: 30px;
-    background-color: #6694e844;
+    background-color: #4297b8;
 }
 
 #sino{
@@ -488,7 +489,7 @@ input{
     padding-top: 8px;
     padding-left: 110px;
     border-radius: 8px;
-    background-color: #77CFF2;
+    background-color: #4297b8;
 }
 
 #addquadro2{
@@ -500,7 +501,7 @@ input{
     padding-top: 8px;
     padding-left: 110px;
     border-radius: 8px;
-    background-color: #77CFF2;
+    background-color: #4297b8;
 }
 
 #addquadro3{
@@ -512,7 +513,7 @@ input{
     padding-top: 8px;
     padding-left: 110px;
     border-radius: 8px;
-    background-color: #77CFF2;
+    background-color: #4297b8;
 }
 
 /* detalhes */
