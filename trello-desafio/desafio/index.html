@@ -75,15 +75,56 @@
           <!-- codigos  desponibilizados -->
 
           <div id="fundo"></div>
-          <div id="container"></div>
-          <dIv id="container2"></dIv>
-          <div id="container3"></div>
+          <div id="container" class="dropzone" ondrop="drop(event)" ondragover="allowDrop(event)" ></div>
+          <dIv id="container2" class="dropzone" ondrop="drop(event)" ondragover="allowDrop(event)" ></dIv>
+          <div id="container3" class="dropzone" ondrop="drop(event)" ondragover="allowDrop(event)" ></div>
         <!-- corpo-div-meio -->
 
 
     </main>
     <footer>
     </footer>
+    <script>
+        function allowDrop(ev) {
+        ev.preventDefault();
+      }
+    
+      function drag(ev) {
+        ev.dataTransfer.setData("divId", ev.target.id);
+        ev.dataTransfer.effectAllowed = "move";
+      }
+    
+      function dragEnd(ev) {
+        this.style.opacity = "1%";
+      }
+    
+      function dragEnter(ev) {
+        ev.preventDefault();
+        if (ev.target.classList.contains('dropzone')) {
+          ev.target.classList.add('drag-over');
+        }
+      }
+    
+      function dragLeave(ev) {
+        ev.preventDefault();
+        if (ev.target.classList.contains('dropzone')) {
+          ev.target.classList.remove('drag-over');
+        }
+      }
+    
+      function drop(ev) {
+        ev.preventDefault();
+        var divId = ev.dataTransfer.getData("divId");
+        var div = document.getElementById(divId);
+    
+        if (ev.target.classList.contains('dropzone')) {
+          ev.target.appendChild(div);
+        } else {
+          var dropzone = document.getElementById(div.dataset.dropzone);
+          dropzone.appendChild(div);
+        }
+      }
+        </script>
     <script src="script.js"></script>
 </body>
 </html>

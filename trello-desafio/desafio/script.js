@@ -15,7 +15,9 @@ function criarQuadro() {
     const cor = gerarCorAleatoria();
     const quadro = document.createElement("div");
   
-    
+    quadro.setAttribute("draggable","true")
+    quadro.addEventListener("dragstart",drag)
+    quadro.id = "quadro-"+Date.now();
     quadro.classList.add("quadro");
     quadro.style.width = "350px";
     quadro.style.height = "100px";

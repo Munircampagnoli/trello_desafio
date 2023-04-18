@@ -322,8 +322,8 @@ input{
     background-color: #FF4858;
     margin-left: 327px;
     margin-top: 230px;
-    width: 75px;
-    height: 50px;
+    width: 50px;
+    height: 30px;
 }
 
 #btn-descart{
@@ -356,7 +356,7 @@ input{
     margin-left: 200px; 
     margin-top: 150px;
     width: 350px;
-    height:200px ;
+    height:100% ;
 }
 
 #container2{
@@ -364,7 +364,7 @@ input{
     margin-left: 600px; 
     margin-top: 150px;
     width: 350px;
-    height:200px ;
+    height:100% ;
 }
 
 #container3{
@@ -372,7 +372,7 @@ input{
     margin-left: 1000px; 
     margin-top: 150px;
     width: 350px;
-    height:200px ;
+    height:100% ;
 }
 
 
@@ -386,7 +386,7 @@ input{
 
 .quadro {
     margin-top: 0px;
-    width: 350px;
+    width: 100px;
     height: 200px;
     margin-left: -101px;
     margin-bottom: 15px;
@@ -421,9 +421,9 @@ input{
     top: 25px;
     left: 170px;
     position: absolute;
-    width: 100px;
-    height: 20px;
-    border-radius: 8px;
+    width: 90px;
+    height: 10px;
+    border-radius: 0px;
     text-align: center;
     background-color: #FF4858;
     color: white;
@@ -431,8 +431,8 @@ input{
 
 
 .botaoExcluir{
-    width: 100px;
-    height: 20px;
+    width: 90px;
+    height: 10px;
     border-radius: 8px;
 }
 
