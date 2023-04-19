@@ -21,7 +21,7 @@ function criarQuadro() {
     quadro.classList.add("quadro");
     quadro.style.width = "350px";
     quadro.style.height = "100px";
-    quadro.style.backgroundColor = "#96D2D9";
+    quadro.style.backgroundColor = "#C27072";
     
 
     quadro.addEventListener ("click",() =>{
