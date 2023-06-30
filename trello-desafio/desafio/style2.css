@@ -14,12 +14,12 @@
 }
 
 body{
-    background-color: rgb(224, 223, 223);
+    background-color: rgb(29,33,37);
 }
 
 /* cabecalho */
 header{
-    background-color: #026AA7;
+    background-color: rgb(29,33,37);
     height: 43px;
     width: 100%;
     padding: 0;
@@ -39,11 +39,11 @@ footer{
 /* ids principais */
 
 img#gif{
-    margin-top: 12px;
+    margin-top: 15px;
     margin-bottom: 6px;
     margin-left: -5px;
-    max-height: 85px;
-    max-width: 85px; 
+    max-height: 80px;
+    max-width: 80px; 
 }
 
 /* hover-gif */
@@ -57,10 +57,10 @@ img#gif{
 /* hover-pontin*/
 img#pontin{
     margin-bottom: 7px;
-    margin-top: 20px;
+    margin-top: 23px;
     margin-left: 25px;
-    max-height: 50px;
-    max-width: 50px;
+    max-height: 30px;
+    max-width: 30px;
 }
 
 #btnMenu{
